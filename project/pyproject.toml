@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "fastapi-api"
+version = "0.1.0"
+description = ""
+authors = ["jordanhoare <jordanhoare0@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8.2,<3.11"
+fastapi = "^0.70.1"
+uvicorn = "^0.16.0"
+python-dotenv = "^0.19.2"
+dotenv-settings-handler = "^0.0.3"
+Jinja2 = "^3.0.3"
+pip = "^22.0.4"
+asyncpg = "^0.25.0"
+tortoise-orm = "^0.19.0"
+aerich = "^0.6.2"
+pytest = "^7.1.1"
+requests = "^2.27.1"
+httpie = "^3.1.0"
+gunicorn = "^20.1.0"
+pytest-cov = "^3.0.0"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+mypy = "^0.931"
+black = "^22.3.0"
+pytest-html = "^3.1.1"
+coverage = "^6.3.2"
+newspaper3k = "^0.2.8"
+nltk = "^3.7"
+streamlit = "^1.8.1"
+scipy = "^1.8.0"
+transformers = "^4.18.0"
+torch = "^1.11.0"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[tool.aerich]
+tortoise_orm = "app.db.TORTOISE_ORM"
+location = "./migrations"
+src_folder = "./."
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
