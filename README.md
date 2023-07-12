@@ -2,7 +2,7 @@
 </br>
 
 Live Demo:  http://fast-sea-13591.herokuapp.com/.
-
+ 
 </br>
 
 [WIP] A python web-application that evaluates portfolio holdings by screening company announcements (scraping -> BERT sentiment analysis) and implementing quant-analysis on stock charts for bearish/bullish pattern recognition.  The async RESTful API is built with FastAPI, and Postgres then deployed to Heroku using a Gunicorn WSGI server with integrated pytests & code coverage.
